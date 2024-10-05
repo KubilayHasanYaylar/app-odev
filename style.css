@@ -1,0 +1,179 @@
+/* .header{
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    z-index: 10000;
+} */
+.hero-section{
+    background-color: rgb(248, 219, 155);
+    padding: 50px;
+    
+}
+.nav-bg{
+    background: hsla(43, 61%, 66%, 0.451) !important;
+}
+.nav-logo{
+    width: 160px;
+    border-radius:10px;
+}
+.nav-link:hover{
+color: rgb(190, 0, 0) !important;
+}
+.winner-size{ 
+font-size: 62.18px;
+font-weight: 300;
+margin-top: 50px;
+}
+.tarz-3{
+    font-weight:bolder;
+    color: brown ;
+}
+.circle-phone{
+    content: "";
+    width: 375px;
+    height: 375px;
+    background-color:rgb(255, 255, 255);
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 50%;
+    margin-top: 50px;
+   
+    
+
+}
+.phone-img{
+    width: 200px; 
+    position: absolute;
+    
+    
+      
+}
+
+
+
+.circle-phone::before {
+    content: "x";
+    font-size: 30px;
+    font-weight:900;
+    color: blueviolet;
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    transform: rotate(-15deg);
+
+
+}
+.circle-phone::after{
+    content: "*";
+    font-size: 40px;
+    font-weight: 900;
+    color: blueviolet;
+    position: absolute;
+    right: 0;
+    top: 0%;
+}
+
+
+.circle-2{
+    content: "";
+    width: 350px;
+    height: 350px; 
+    background-color: rgba(17, 15, 15, 0.507);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    border-radius: 50%;
+
+
+}
+
+    
+.phone-2{
+    width: 200px;
+    padding: 10px;
+  
+}
+.circle-2::before{
+    content: "*";
+    font-size: 30px;
+    font-weight: 900;
+    color: rgb(255, 9, 9);
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+
+
+}
+.circle-2::after{
+    content: "x";
+    font-size: 30px;
+    font-weight: 900;
+    color: rgb(173, 28, 183);
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    transform: rotate(10deg);
+    
+}
+
+.phone-pad{
+    padding: 0 40%;
+}
+.bg-img{
+    width: 100vw;
+    height: 80vh;
+    padding: 0%;
+    margin: 0%;
+}
+
+.esports-img{
+    width: 30vw;
+}
+.tiktok-size{
+    font-size: 3rem;
+}
+.twitter-size{
+    font-size: 3rem;
+}
+.instagram-size{
+    font-size: 3rem;
+}
+.youtube-size{
+    font-size: 3rem;
+}
+.social-container{
+    background-color:rgb(248, 219, 155);
+    margin-top:  20px ;
+}
+.moba-1{
+    color: brown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.building-container{
+position: relative;
+width: 100%;
+height: 500px;
+}
+.building-bg{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-image: url(assets/_c073492abfa64fe5c0674e8ca2fa9c12876425ea-2000x1125-ori_s_80_50_ori_q_80.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.116);
+}
+.modal-header{
+   background-color:  rgb(248, 219, 155);
+}
